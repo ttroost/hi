@@ -2,6 +2,7 @@
 import pandas as pd
 import plotly as plt
 import plotly.express as px
+import streamlit as st
 
 # read in files
 weerdata = pd.read_excel('weerdata.xlsx')
